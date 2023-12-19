@@ -34,6 +34,7 @@ for (let i = 0; i < fileArr.length; i++) {
     if (!doesExist) {
         console.log("one or more files does not exist");
         return;
+        //process.exit  //--> alternative for return
     }
 
 }
